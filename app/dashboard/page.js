@@ -1,16 +1,25 @@
 export default function DashboardHome() {
   return (
-    <section>
-      <h2>Dashboard Overview</h2>
-      <p>
-        This is an example of a nested layout. Everything under
-        <code> /dashboard </code> uses the dashboard layout.
-      </p>
-      <ul>
-        <li>Show some quick stats here.</li>
-        <li>List recent activity.</li>
-        <li>Add charts or tables as needed.</li>
-      </ul>
+    <section className="section">
+      <h1>Welcome back 👋</h1>
+      <p>Here is a quick snapshot of your learning activity.</p>
+
+      <div className="grid-3">
+        <div className="stat-card">
+          <p className="stat-label">Courses in progress</p>
+          <p className="stat-value">3</p>
+        </div>
+
+        <div className="stat-card">
+          <p className="stat-label">Lessons completed</p>
+          <p className="stat-value">12</p>
+        </div>
+
+        <div className="stat-card">
+          <p className="stat-label">Current streak</p>
+          <p className="stat-value">4 days 🔥</p>
+        </div>
+      </div>
     </section>
   );
 }
