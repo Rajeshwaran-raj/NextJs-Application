@@ -1,23 +1,22 @@
-# LearnHub – Sample Next.js Learning Platform
+# ShopSphere – Next.js + TypeScript E-Commerce UI
 
-A slightly larger, design-focused Next.js 14 app using the App Router.
+TypeScript version of the polished Next.js 14 demo store using the App Router.
 
 ## Features
 
 - App Router with `app` directory
-- Root layout with sticky navbar & footer
+- Written in TypeScript (`.tsx` components)
+- Sticky navbar and footer
 - Pages:
-  - Home landing page
-  - Courses listing and dynamic course detail `/courses/[slug]`
-  - Instructors page
-  - Dashboard with nested layout:
-    - `/dashboard`
-    - `/dashboard/courses`
-    - `/dashboard/profile`
-  - Auth pages: `/auth/login`, `/auth/register`
-- Simple API route `/api/hello`
-- Centralized course + instructor data
-- Custom handcrafted CSS for a modern dark UI
+  - `/` – Hero landing with featured product + stats
+  - `/products` – Product listing
+  - `/products/[slug]` – Product detail (highlights, includes, etc.)
+  - `/cart` – Simple cart summary UI
+  - `/checkout` – Two-column checkout form
+  - `/dashboard` – Basic store stats dashboard shell
+  - `/auth/login`, `/auth/register` – Auth form UIs
+- Centralized typed product data in `components/data.ts`
+- API route `/api/hello` as an example backend endpoint
 
 ## Getting Started
 

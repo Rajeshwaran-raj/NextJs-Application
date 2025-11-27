@@ -1,5 +1,5 @@
 {
-  "name": "next-learning-platform",
+  "name": "next-ecommerce-store-ts",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,5 +11,11 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
   }
 }

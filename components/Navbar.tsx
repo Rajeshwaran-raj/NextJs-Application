@@ -8,8 +8,8 @@ export function Navbar() {
 
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/courses", label: "Courses" },
-    { href: "/instructors", label: "Instructors" },
+    { href: "/products", label: "Products" },
+    { href: "/cart", label: "Cart" },
     { href: "/dashboard", label: "Dashboard" },
   ];
 
@@ -18,9 +18,8 @@ export function Navbar() {
       <div className="shell nav-inner">
         <Link href="/" className="brand">
           <span className="brand-mark" />
-          <span className="brand-text">LearnHub</span>
+          <span className="brand-text">ShopSphere</span>
         </Link>
-
         <nav className="nav-links">
           {navItems.map((item) => (
             <Link
@@ -34,7 +33,6 @@ export function Navbar() {
             </Link>
           ))}
         </nav>
-
         <div className="nav-actions">
           <Link href="/auth/login" className="btn btn-ghost small">
             Login
