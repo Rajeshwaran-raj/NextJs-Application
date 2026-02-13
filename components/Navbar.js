@@ -10,6 +10,7 @@ export function Navbar() {
     { href: "/", label: "Home" },
     { href: "/courses", label: "Courses" },
     { href: "/instructors", label: "Instructors" },
+    { href: "/placements", label: "Placements" },
     { href: "/dashboard", label: "Dashboard" },
   ];
 
