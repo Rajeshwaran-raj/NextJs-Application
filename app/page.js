@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="hero-text">
-          <span className="badge">New • 2027 Ready</span>
+          <span className="badge">New • 2026 Ready</span>
           <h1>Level up your skills with curated tech courses.</h1>
           <p>
             Learn web development, cloud, DevOps, and more with hands-on
